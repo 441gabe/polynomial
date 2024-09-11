@@ -35,5 +35,7 @@ class Mul:
         return repr(self.p1) + " * " + repr(self.p2)
 
 
-poly = Add( Add( Int(4), Int(3)), Add( X(), Mul( Int(1), Add( Mul(X(), X()), Int(1)))))
-print(poly)
+def evaluate():
+    poly = Add( Add( Int(4), Int(3)), Add( X(), Mul( Int(1), Add( Mul(X(), X()), Int(1)))))
+    print(poly)
+    
